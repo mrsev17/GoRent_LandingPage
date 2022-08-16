@@ -101,6 +101,10 @@ h1, h2 {
   box-shadow: none;
 }
 
+.navbar-collapse > form {
+  gap: 24px;
+}
+
 .active-link {
   background: linear-gradient(108.34deg, #17C2ED 4.55%, #1C7DD7 95.45%);
   border-radius: 100px;
