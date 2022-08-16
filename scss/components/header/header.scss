@@ -1,0 +1,87 @@
+.header {
+  height: 100vh;
+  background: linear-gradient(158deg, #121D39 71%, white 29%);
+  padding-bottom: 30px;
+  .container {
+    padding-top: 58px;
+  }
+  &__form {
+    gap: 30px;
+  }
+  &__nav-left > a {
+    margin-top: 14px;
+  }
+  &__nav-list {
+    gap: 75px;
+  }
+  &__nav-list > li {
+    margin: 6px;
+    a {
+      border-bottom: 2px solid transparent;
+      font-size: $font-links;
+      color: #ffffff;
+      transition: .5s ease-out 200ms;
+      &:hover {
+        transform: scale(1.2);
+        border-bottom: 2px solid $accent-color;
+        transition: .5s;
+      }
+    }
+  }
+  &__nav-right {
+    gap: 46px;
+  }
+  &__nav-link-one,
+  &__nav-link-two {
+    a {
+      padding: 14px 44px;
+      font-size: $font-links;
+      font-weight: $font-sm;
+      color: #ffffff;
+      border: 1px solid transparent;
+      border-radius: 100px;
+      &:hover {
+        opacity: 1;
+        transition: .5s;
+        background: $accent-gradient;
+        padding: 14px 44px;
+      }
+    }
+  }
+  &__country-dropdown {
+    margin-top: 100px;
+  }
+  &__title {
+    margin-top: 20px;
+  }
+  &__title > h1 {
+    color: #ffffff;
+    font-weight: $font-md;
+    max-width: 441px;
+    line-height: 82px;
+  }
+  &__text-banner {
+    max-width: 519px;
+    color: #ffffff;
+    opacity: 0.5;
+    font-size: $font-text;
+    font-weight: $font-sm;
+  }
+  &__control-banner {
+    margin-top: 95px;
+    a {
+      padding: 28px 62px;
+      font-size: $font-text;
+      font-weight: $font-md;
+      color: #ffffff;
+      background: $accent-gradient;
+      border-radius: 27px;
+      transition: box-shadow ease-out .7s;
+      &:hover {
+        transition: .5s;
+        background: linear-gradient(108.34deg, #17C2ED 50%, #1C7DD7 90%);
+        box-shadow: 3px 3px 3px 3px rgba(23,130,255,0.69);
+      }
+    }
+  }
+}

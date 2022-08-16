@@ -1,0 +1,67 @@
+@media (max-width: 1200px) {
+  .header {
+    &__country-dropdown {
+      margin-top: 50px;
+    }
+    &__title > h1 {
+      font-size: 45px;
+    }
+    &__control-banner {
+      margin-top: 30px;
+      a {
+        padding: 14px 30px;
+        font-size: 18px;
+      }
+    }
+  }
+}
+@media (max-width: 992px) {
+  .header {
+    &__banner {
+      flex-direction: column;
+      align-items: center;
+    }
+    &__banner-right {
+      margin-top: 30px;
+    }
+    &__banner-left {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    &__title > h1,
+    &__text-banner {
+      text-align: center;
+    }
+    &__nav-list {
+      background: url("../assets/images/featured_bubbles_left_side.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      gap: 20px;
+    }
+    .navbar-collapse > form {
+      justify-content: end;
+      background: url("../assets/images/featured_bubbles_right_side.png");
+      background-repeat: no-repeat;
+      background-position: left;
+      background-size: 10%;
+    }
+  }
+}
+
+@media (max-width: 532px) {
+  .header {
+    background: linear-gradient(158deg, #121D39 75%, white 25%);
+    .container {
+      padding-top: 20px;
+    }
+  }
+}
+@media (max-width: 325px) {
+  .header {
+    &__nav-link-one > a,
+    &__nav-link-two > a {
+      padding: 8px 22px;
+    }
+  }
+}

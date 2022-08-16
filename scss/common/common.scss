@@ -1,0 +1,45 @@
+@import "variables";
+
+body {
+  font-family: "Poppins",sans-serif;
+}
+h1,h2 {
+  font-size: $font-section-title;
+}
+.navbar-nav {
+  margin: 6px auto 0 !important;
+}
+.navbar-toggler {
+  background: $accent-gradient;
+  &:focus {
+    box-shadow: none;
+  }
+}
+.active-link {
+    background: $accent-gradient;
+    border-radius: 100px;
+}
+.dropdown > button {
+  border-radius: 15px;
+  padding: 12px 22px;
+  gap: 13px;
+  align-items: center;
+  color: #999999;
+  &:focus {
+    box-shadow: none !important;
+  }
+}
+
+.dropdown-toggle::after {
+  content: none;
+}
+.dropdown-menu {
+  border-radius: 15px;
+  transition: .5s;
+  .dropdown-item {
+    border-radius: 15px;
+    &:hover {
+      border-radius: 15px;
+    }
+  }
+}
