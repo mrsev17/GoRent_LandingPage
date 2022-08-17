@@ -1,0 +1,61 @@
+.customers {
+  &__sub {
+    margin-top: 126px;
+    h4 {
+      color: $accent-color;
+      font-size: $font-sub;
+      font-weight: $font-md;
+      text-align: center;
+    }
+  }
+  &__title {
+    margin-top: 16px;
+    h2 {
+      text-align: center;
+      font-weight: $font-md;
+    }
+  }
+  &__wrapper-main-content {
+    margin-top: 98px;
+    gap: 78px;
+  }
+  &__about {
+    margin-top: 44px;
+    h5 {
+      max-width: 565px;
+      font-size: $font-regular-title;
+      font-weight: $font-sm;
+    }
+  }
+  &__client {
+    margin-top: 34px;
+    gap: 32px;
+  }
+  &__client-name {
+    margin-top: 22px;
+    h4 {
+      font-size: 33px;
+      font-weight: $font-sm;
+    }
+  }
+  &__client-location {
+    margin-top: 10px;
+    p {
+      font-size: $font-text;
+      opacity: 0.5;
+    }
+  }
+  &__evaluation {
+    margin-top: 60px;
+    p {
+      font-size: 22px;
+      font-weight: $font-sm;
+      max-width: 491px;
+      opacity: 0.5;
+    }
+  }
+  &__stars {
+    margin-top: 25px;
+    gap: 8px;
+  }
+}

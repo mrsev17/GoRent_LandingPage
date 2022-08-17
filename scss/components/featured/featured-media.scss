@@ -1,5 +1,8 @@
 @media (max-width: 992px) {
   .featured {
+    .container {
+      max-width: 942px;
+    }
     figure > img {
       display: none;
     }
@@ -38,6 +41,9 @@
 
 @media (max-width: 768px) {
   .featured {
+    &__subtitle {
+      margin-top: 30px;
+    }
     .container {
       padding: 0 20px !important;
       max-width: 760px;
@@ -45,6 +51,9 @@
     &__first-left,
     &__second-right {
       gap: 20px;
+    }
+    &__first-line {
+      margin-top: 60px;
     }
     &__product-title {
       h4 {
