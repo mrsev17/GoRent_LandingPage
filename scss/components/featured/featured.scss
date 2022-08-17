@@ -1,0 +1,81 @@
+.featured {
+  padding-bottom: 50px;
+  &__subtitle {
+    margin-top: 110px;
+    h3 {
+      text-align: center;
+      color: $accent-color;
+      font-size: $font-sub;
+    }
+  }
+  &__title {
+    margin-top: 16px;
+    h2 {
+      text-align: center;
+    }
+  }
+  &__first-line {
+    margin-top: 129px;
+  }
+  &__first-left {
+    gap: 61px;
+  }
+  &__first-left-left {
+    position: relative;
+    border-radius: 60px;
+    .card-arrow {
+      position: absolute;
+      bottom: 30px;
+      right: 30px;
+      opacity: 0;
+      transition: ease-out .7s;
+    }
+    &:hover {
+      .card-arrow {
+        transition: .6s;
+        opacity: 1;
+        transform: scale(1.1);
+      }
+    }
+  }
+  &__product-title {
+    margin-top: 38px;
+    h4 {
+      font-size: $font-regular-title;
+      font-weight: $font-md;
+    }
+  }
+  &__product-text {
+    margin-top: 15px;
+    p {
+      max-width: 456px;
+      font-size: $font-text;
+      opacity: 0.5;
+    }
+  }
+  &__product-learn {
+    margin-top: 85px;
+    a {
+      padding: 25px 55px;
+      background: $accent-gradient;
+      border-radius: 27px;
+      color: #ffffff;
+      font-size: 20px;
+      font-weight: $font-md;
+      transition: ease-out .7s;
+      &:hover {
+        transition: .5s;
+        box-shadow: 7px 7px 14px -4px rgba(0,0,0,0.74);
+      }
+    }
+  }
+  &__second-right > figure {
+    margin-top: 60px;
+  }
+  &__first-left > figure {
+    margin-top: 130px;
+  }
+  &__second-right {
+    gap: 61px;
+  }
+}
