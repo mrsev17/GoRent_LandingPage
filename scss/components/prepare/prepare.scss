@@ -1,0 +1,42 @@
+.prepare {
+  &__wrapper {
+    gap: 79px;
+    margin-top: 112px;
+    padding: 21px;
+    border-radius: 60px;
+    background-color: #E7F1FC;
+  }
+  &__title {
+    margin-top: 23px;
+    h2 {
+      max-width: 550px;
+      font-size: $font-regular-title;
+      font-weight: $font-sm;
+      line-height: 70px;
+    }
+  }
+  &__text {
+    margin-top: 16px;
+    p {
+      max-width: 509px;
+      font-size: $font-sub;
+      opacity: 0.5;
+    }
+  }
+  &__control {
+    margin-top: 56px;
+    a {
+      color: #ffffff;
+      font-size: 20px;
+      font-weight: $font-md;
+      padding: 24px 54px;
+      background: $accent-gradient;
+      border-radius: 27px;
+      transition: ease-out .8s;
+      &:hover {
+        transition: .5s;
+        box-shadow: 7px 7px 14px -4px rgba(0,0,0,0.74);;
+      }
+    }
+  }
+}
