@@ -709,5 +709,61 @@ h1, h2 {
     align-items: center;
   }
 }
+.footer {
+  padding-bottom: 30px;
+}
+.footer__wrapper {
+  align-items: center;
+  margin-top: 78px;
+  padding: 15px;
+  background-color: #E7F1FC;
+  border-radius: 20px;
+}
+.footer__logo, .footer__links, .footer__control {
+  margin-top: 6px;
+}
+.footer__links > ul {
+  gap: 80px;
+}
+.footer__links > ul li > a {
+  font-size: 15px;
+  color: #101729;
+  opacity: 0.5;
+  border-bottom: 2px solid transparent;
+  transition: ease-out 0.7s;
+}
+.footer__links > ul li > a:hover {
+  transition: 0.5s;
+  border-bottom: 2px solid #17C1ED;
+}
+.footer__control {
+  margin-bottom: 6px;
+  gap: 24px;
+}
+.footer__control a {
+  padding: 14px 28px;
+  background: linear-gradient(108.34deg, #17C2ED 4.55%, #1C7DD7 95.45%);
+  border-radius: 20px;
+  color: #ffffff;
+  transition: ease-out 0.7s;
+}
+.footer__control a:hover {
+  transition: 0.5s;
+  box-shadow: 7px 7px 14px -4px rgba(0, 0, 0, 0.74);
+}
+
+@media (max-width: 992px) {
+  .footer .container {
+    max-width: 902px;
+  }
+  .footer__links > ul {
+    gap: 24px;
+  }
+}
+@media (max-width: 662px) {
+  .footer__wrapper {
+    flex-direction: column;
+  }
+}
 
 /*# sourceMappingURL=stylesheet.css.map */

@@ -1,0 +1,17 @@
+@media (max-width: 992px) {
+  .footer {
+    .container {
+      max-width: 902px;
+    }
+    &__links > ul {
+      gap: 24px;
+    }
+  }
+}
+@media (max-width: 662px) {
+  .footer {
+    &__wrapper {
+      flex-direction: column;
+    }
+  }
+}
